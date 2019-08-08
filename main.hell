@@ -1,0 +1,51 @@
+<hell ver="1.0">
+
+    <style id="UI"></style>
+
+    <main>
+    
+        <layer id="background">default.jpg</layer>
+
+        <layer id="top">
+            
+            <imageButton id="start"></imageButton>
+            
+            <TextView id="name"></TextView>
+            
+            <TextView id="menu">@file</TextView>
+            
+            <TextView id="menu">@edit</TextView>
+            
+            <TextView id="menu">@view</TextView>
+            
+            <TextView id="menu">@window</TextView>
+            
+            <TextView id="menu">@help</TextView>
+            
+            <layer id="icons"></layer>
+            
+            <layer id="time"></layer>
+            
+        </layer>
+        
+        <layer id="desktop"></layer>
+        
+        <layer id="window"></layer>
+        
+        <layer id="panel">
+        
+            <layer id="panelmenu"></layer>
+        
+        </layer>
+        
+        <layer id="menu">
+        
+            <input id="search" type="text" patter="Search"></input>
+            
+            <layer id="apps"></layer>
+        
+        </layer>
+
+    </main>
+
+</hell>
